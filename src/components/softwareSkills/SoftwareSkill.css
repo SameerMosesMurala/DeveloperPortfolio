@@ -10,7 +10,23 @@
 .software-skill-inline {
   display: inline-block;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px; 
+  font-size: 10px;
+}
+
+div.logo {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+.caption {
+  display: block;
+}
+
+#logoimage{
+  width: 60px;
+  height: 60px;
+  background-color:white;
 }
 
 .software-skill-inline > i {

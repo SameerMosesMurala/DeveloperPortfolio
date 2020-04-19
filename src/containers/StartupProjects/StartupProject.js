@@ -3,7 +3,7 @@ import "./StartupProjects.css";
 import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
 
-export default function StartupProject() {
+export default function StartupProjects() {
   function openProjectInNewWindow(url) {
     var win = window.open(url, "_blank");
     win.focus();

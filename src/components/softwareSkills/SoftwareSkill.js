@@ -9,9 +9,13 @@ export default function SoftwareSkill() {
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map(skills => {
             return (
+              <div className="logo">
               <li className="software-skill-inline" name={skills.skillName}>
-                <i className={skills.fontAwesomeClassname}></i>
+                {/* <i title={skills.skillName} className={skills.fontAwesomeClassname}></i> */}
+                <img alt="Sameer Work Information" id="logoimage" src={skills.url}></img>
+                <span class="caption">{skills.skillName}</span>
               </li>
+              </div>
             );
           })}
         </ul>

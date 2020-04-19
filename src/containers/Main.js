@@ -13,6 +13,9 @@ import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
+import Work from './Work/Work';
+import Education from './Education/Education';
+import ProjectsGithub from './projectsgithub/ProjectsGithub';
 
 export default class Main extends Component {
   render() {
@@ -21,14 +24,22 @@ export default class Main extends Component {
         <Header />
         <Greeting />
         <Skills />
-        <StackProgress />
-        <Projects />
-        <StartupProject />
+        {/* Profiency */}
+        {/* <StackProgress /> */}
+        {/* Open Source projects */}
+        {/* <Projects /> */}
+        {/* WorkExperience */}
+        {/* Education */}
+        {/* <StartupProject /> */}
+        <Work />
+        <Education />
+        {/* GitHub Projects */}
         <Achievement />
-        <Blogs />
-        <Talks />
+        <ProjectsGithub /> 
+        {/* <Blogs /> */}
+        {/* <Talks />
         <Twitter />
-        <Podcast />
+        <Podcast /> */}
         <Contact />
         <Footer />
         <Top />
